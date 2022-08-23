@@ -1,0 +1,388 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*home*/
+.home{
+  padding-top: 6rem!important;
+  padding-bottom: 6rem!important;
+  border-bottom: 1px solid #e5e5e5!important;
+
+
+}
+
+.text-home{
+  margin-bottom: 1rem!important;
+ 
+}
+.text-home h1{
+  font-size: 2.75rem;
+}
+.text-home p{
+  color: #525252!important;
+
+  font-size: 1.125rem!important;
+
+  margin-bottom: 2rem!important;
+
+}
+.button-home{
+  color: white;
+  text-decoration: none;
+  background-color: #F96E60;
+}
+.image-home {
+  max-width: 100%;
+  height: auto;
+}
+
+/* info */
+
+.info{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.info-text{
+  margin-left: 1.5rem;
+}
+.fa{
+  color: #ff6f61!important;
+}
+/* Homepages */
+.homepages{
+  background-color: #f5f5f5!important;
+  padding-bottom: 6rem!important;
+  padding-top: 6rem!important;
+  
+
+}
+.homepages-text{
+  text-align: center;
+}
+.homepages-text h2{
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem!important;
+}
+.homepages-text p{
+  color: #525252!important;
+
+  font-size: 1.125rem!important;
+
+  margin-bottom: 4rem!important;
+
+}
+.image-homepage-text{
+  text-align: center;
+  font-size: 1.125rem!important;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-weight: 500;
+}
+.image-homepage{
+  max-width: 100%;
+  height: auto;
+}
+.card{
+  text-align: center;
+  
+  height: 85%;
+}
+.btn-primary {
+  color: #fff;
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+}
+.card-text{
+  position: relative;
+  top: 40%;
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #FAFAFA;
+}
+
+.carousel-cell {
+  width: 25%;
+  height: 200px;
+  margin-right: 10px;
+  background: #333;
+}
+
+.carousel-cell-image {
+  display: block;
+  max-height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+
+.flickity-page-dots, .flickity-prev-next-button{
+  display: none;
+}
+
+
+/* headers */
+
+.headers{
+  background-color: #f5f5f5!important;
+  padding-bottom: 6rem!important;
+  padding-top: 6rem!important;
+}
+
+.headers-text{
+  
+      margin-bottom: 4rem!important;
+      font-size: 2.25rem;
+      font-weight: 500;
+      line-height: 1.2;
+      text-align: center;
+      
+}
+.image-headers{
+  margin-bottom: 2rem!important;
+  max-width: 100%;
+  height: auto;
+}
+
+/* mega-menu-dropdown */
+
+.mega-menu-dropdown{
+ 
+  padding-bottom: 6rem!important;
+
+  padding-top: 6rem!important;
+
+  background-color: #fff!important;
+
+}
+.mega-menu-dropdown-text{
+
+      margin-bottom: 4rem!important;
+  
+      font-size: 2.25rem;
+
+  text-align: center;
+}
+.mega-menu-dropdown-images{
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 2rem!important;
+  margin-left: 2rem!important;
+  border: 1px solid #e5e5e5!important;
+}
+
+/* blog */
+.blog{
+  padding-bottom: 6rem!important;
+
+  padding-top: 6rem!important;
+
+  background-color: #1f1f1f!important;
+
+
+}
+.blog-text{
+  text-align: center!important;
+  
+      color: #fff!important;
+
+      margin-bottom: 4rem!important;
+
+      font-size: 2.25rem;
+
+      font-weight: 500;
+      line-height: 1.2;
+}
+.blog-shop{
+  max-width: 100%;
+  height: auto;
+  
+}
+.blogs-shop{
+  margin-left: 2.0%;  
+}
+.blog-text-image{
+      text-align: center!important;
+      font-weight: 500;
+      color: #fff!important;
+
+  
+}
+/* product */
+
+.product-cards{
+  padding-bottom: 6rem!important;
+
+  padding-top: 6rem!important;
+
+}
+.product-cards-text{
+  text-align: center!important;
+
+      margin-bottom: 4rem!important;
+
+      font-size: 2.25rem;
+
+      font-weight: 500;
+      line-height: 1.2;
+}
+.product-card-shop{
+  max-width: 100%;
+  height: auto;
+  
+}
+.product-cards-shop{
+  margin-left: 2.0%;  
+}
+
+/* Responsive */
+.responsive{
+  display: flex;
+  background: url('../Images/cover/devices-2.jpg') no-repeat center ;
+  background-size: auto 100%!important;
+  background-color: #F0F0F0;
+
+}
+.responsive-text{
+  padding-top: 10rem!important;
+  padding-bottom: 10rem!important;
+}
+.responsive-text h2{
+ 
+      margin-bottom: 1.5rem!important;
+      font-weight: 500;
+  line-height: 1.2;
+  
+      font-size: 2.25rem;
+  
+}
+.responsive-text p {
+  color: #525252!important;
+  font-size: 1.125rem!important;
+}
+/* Features */
+.features{
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+
+}
+
+.features-text-1{
+  text-align: center!important;
+  justify-content: center!important;
+}
+.features-text-1 h2{
+      margin-bottom: 0.75rem!important;
+ 
+      font-size: 2.25rem;
+  
+}
+.features-text-1 p{
+  color: #525252!important;
+
+  font-size: 1.125rem!important;
+
+  margin-bottom: 4rem!important;
+
+}
+.featuretext{
+  margin-left: 1rem;
+}
+.features-text-2{
+  margin-bottom: 4rem;
+ 
+}
+.mb-7{
+  margin-bottom: 2rem!important;
+}
+.mr-4, .mx-4 {
+  margin-right: 1rem!important;
+}
+
+
+
+.text-warning {
+  color: #ff9736!important;
+}
+.mr-3, .mx-3 {
+  margin-right: 0.75rem!important;
+}
+.fa, .fas {
+  font-weight: 900;
+}
+
+/* footer */
+.footer{
+  background-color: black;
+  justify-content: center!important;
+  padding-bottom: 6rem!important;
+  padding-top: 6rem!important;
+
+}
+.text-footer{
+  text-align: center;
+  justify-content: center!important;
+}
+.footer h4{
+  color: white;
+  margin-bottom: 2rem!important;
+  font-size: 2.25rem;
+  text-align: center;
+  justify-content: center!important;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: red;
+  border-color: red;
+}
+.btn {
+ padding: 1rem;
+}
+
+.slidername{
+  margin: 5%;
+}
+
+
+.item {
+ height: fit-content;
+ margin: 5%;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
