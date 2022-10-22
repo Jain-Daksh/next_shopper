@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Image from 'next/image'
 import Image1 from '../Images/Shop & Account Pages/shop.png'
@@ -292,5 +293,23 @@ export default ShopAndAccount
 
                 </div>
                 </div>
+
+*/
+
+/*
+
+
+import React from 'react'
+import Image from 'next/image'
+import Image1 from '../Images/Shop & Account Pages/shop.png'
+import Image2 from '../Images/Shop & Account Pages/shop-topbar.png'
+import Image3 from '../Images/Shop & Account Pages/shop-collapse.png'
+import Image4 from '../Images/Shop & Account Pages/shop-simple.png'
+import Image5 from '../Images/Shop & Account Pages/shop-masonry.png'
+const Images = [Image1,Image2,Image3,Image4,Image5]
+
+export default ShopAndAccount
+{ Images.map(({id, src, title, description}) => <img key={id} src={src} title={title} alt={description} />)
+
 
 */
